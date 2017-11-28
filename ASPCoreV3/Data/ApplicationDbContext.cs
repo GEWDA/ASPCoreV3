@@ -15,6 +15,11 @@ namespace ASPCoreV3.Data
         {
         }
 
+        public DbSet<HotelRoom> Rooms { get; set; }
+        public DbSet<HotelBooking> Bookings { get; set; }
+        public DbSet<HotelGuest> Guests { get; set; }
+        public DbSet<HotelBill> Bills { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

@@ -5,8 +5,6 @@ using System.Threading.Tasks;
 
 namespace ASPCoreV3.Models
 {
-    public class HotelModels
-    {
         /// <summary>
         /// Hotel Room Model
         /// </summary>
@@ -66,6 +64,4 @@ namespace ASPCoreV3.Models
             public DateTimeOffset BookingTo { get; set; }
             public float RoomCost { get; set; }
         }
-
-    }
 }
