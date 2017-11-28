@@ -19,7 +19,7 @@ namespace ASPCoreV3.Models
             public int NumberExtraBeds { get; set; } = 0;
             public float PriceSingle { get; set; }
             public float PriceDouble { get; set; }
-            public float? PricePerExtra { get; set; }//WARN:    check this value later in program
+            public float PricePerExtra { get; set; }//WARN:    check this value later in program
         }
 
         /// <summary>
